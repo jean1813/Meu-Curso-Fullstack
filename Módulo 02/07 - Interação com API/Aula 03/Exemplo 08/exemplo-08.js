@@ -9,6 +9,7 @@ async function sos(){
     let mesmoSinal = await trocar.text()
     console.log(mesmoSinal)
     alert(mesmoSinal)
+    document.getElementById("calo").textContent = mesmoSinal
 }
 
 
