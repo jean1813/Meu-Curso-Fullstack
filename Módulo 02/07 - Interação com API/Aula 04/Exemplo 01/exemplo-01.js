@@ -17,12 +17,12 @@ async function mexer(){
         </p>
     `*/
 
-    let tnt = [2, 13, 19]
+    let tnt = [2, 13, 19, 20]
     for (let x in tnt){  
         //alert(x) 
     }
 
-    for (let x = 0; x <= 2; x++) {
+    for (let x = 0; x <=2; x++) {
         
         //alert(x)
 

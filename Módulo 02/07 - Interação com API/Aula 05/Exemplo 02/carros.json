@@ -1,0 +1,24 @@
+[
+    {
+        "marca": "Fiat",
+        "modelo":"Mobi",
+        "ano": 2018
+        
+    },
+
+    {
+        "marca": "BMW",
+        "modelo":"32oi",
+        "ano": 2018
+        
+    },
+
+
+    {
+        "marca": "Ford",
+        "modelo":"Ranger",
+        "ano": 2018
+        
+    }
+
+]
