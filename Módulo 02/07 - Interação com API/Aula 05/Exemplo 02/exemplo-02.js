@@ -7,8 +7,7 @@ async function olx(){
     //for( let x in convertido ){
         alert(convertido[1].modelo)
         
-    //}
-    
+    //} 
 }
 
 olx()
