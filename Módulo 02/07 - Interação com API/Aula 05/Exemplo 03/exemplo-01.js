@@ -3,6 +3,9 @@ async function buscar(){
     //console.log(procura)
     let lista = await procura.json() // o resultado da busca esta sendo convertido
 
+    let procura2 = await fetch("exe.json")
+    let cores = await procura2.json()
+
     for( let x in lista){
         //alert(lista[x])
         //alert(x) //printar a posição de cada item
@@ -13,7 +16,6 @@ async function buscar(){
         
         document.body.innerHTML += `
             <h1 style="color:${cores[indice]}">
-                
                 ${lista[x]}
             </h1>
         ` 
