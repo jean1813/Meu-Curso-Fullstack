@@ -1,3 +1,13 @@
+//function somar(){
+    //alert("jean")
+//}
+
+
+//somar() // chamar a função no javascript
+
+//alert("oi2")
+
+
 function somar1(x, y){
     alert(x + y + " Ferreira")
 }
@@ -7,5 +17,5 @@ function somar2(x){
 }
 
 somar1("Paulo", " Afonso")
-somar2("Vinicius")
+somar2("Vinicíus")
 somar2("Laura")

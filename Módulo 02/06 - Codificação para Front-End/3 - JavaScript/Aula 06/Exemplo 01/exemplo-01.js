@@ -1,13 +1,15 @@
-/*
-let pessoa = {"nome":"Jean", "sobrenome":"Carvalho", "idade":15}
-
-alert(pessoa.nome + " " + pessoa.sobrenome)
+/*let pessoa = {"nome":"Jean","sobrenome":"Carvalho", "idade":48}
+alert(pessoa.nome +" " + pessoa.sobrenome) coloca espaço entre o nome e o sobre nome!
 */
 
-let pessoas = [
-    {"nome":"Ivan", "idade":24, "etnia":"pardo"},
-    {"nome":"Sheila", "idade":36, "etnia":"afrodecesdente"},
-    {"nome":"Gabriel", "idade":29, "etnia":"branco"}
-]
+//let time = {"clube":"Flamengo", "apelido":"O mais querido", "estado":"Rio de Janeiro"}
+//alert(time.clube + " " + time.apelido + " do " + time.estado)
 
-alert(pessoas[1].etnia)
+let pessoas = [
+    {"nome": "Jean" , "idade":25, "etnia":"pardo"}, 
+    {"nome":"Sheila", "idade":36, "etnia":"afro"}, 
+    {"nome":"Gabriel", "idade":25, "etnia":"branca"}
+] // criei um dicionario dentro de uma lista!
+
+alert(pessoas[2].etnia)
+

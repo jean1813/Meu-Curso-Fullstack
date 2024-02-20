@@ -1,9 +1,9 @@
-
+/*
 // Programa #1:
 //  Criar uma mensagem de alerta na página.
 
 alert("Olá mundo")
-
+*/
 
 //====================================================
 
@@ -83,7 +83,7 @@ function somarUm() {
 
 //====================================================
 
-/*
+///*
 // Programa #7:
 //  Mesma funcionalidade do programa anterior. Acrescentando a estrutura de 
 //  verificação 'IF'. Dentro do IF verifica se o número é igual ao número 5.
@@ -120,7 +120,4 @@ function somarUm() {
 
 }
 
-*/
-
-
-
+//*/

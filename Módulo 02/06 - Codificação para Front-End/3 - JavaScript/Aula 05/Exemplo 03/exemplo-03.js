@@ -1,2 +1,2 @@
-let frutas = ["maçã","kiwi",29,true, false]
-alert(frutas)
+let frutas = ["maçã", "kiwi", 29,]
+    alert(frutas)
