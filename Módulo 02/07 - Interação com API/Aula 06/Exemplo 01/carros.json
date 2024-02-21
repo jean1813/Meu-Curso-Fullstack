@@ -1,0 +1,26 @@
+[
+    { 
+        "modelo": "Monza",    
+        "marca": "Chevrolet",
+        "ano": 1995,
+        "cor": "Vinho"
+            
+    },
+
+    { 
+        "modelo": "Mobi",
+        "marca": "Fiat",
+        "ano": 2024,
+        "cor": "Vermelho"
+            
+    },
+
+    { 
+        "modelo": "Gol",
+        "marca": "Volkswagem",
+        "ano": 2023,
+        "cor": "Azul"
+            
+    }
+]
+    
