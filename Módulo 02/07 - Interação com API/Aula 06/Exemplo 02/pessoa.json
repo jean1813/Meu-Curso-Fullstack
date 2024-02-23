@@ -8,17 +8,17 @@
     },
 
     {
-        "nome":"Jean Carlos",
-        "sobrenome":"Carvalho",
-        "idade":"fifty",
-        "etnia":"pardo",
+        "nome":"Jorge Ricardo",
+        "sobrenome":"Sousa",
+        "idade":47,
+        "etnia":"Branca",
         "mae":"Maria José"
     },
 
     {
-        "nome":"Jean Carlos",
+        "nome":"James Vicente",
         "sobrenome":"Carvalho",
-        "idade":"fifty",
+        "idade":35,
         "etnia":"pardo",
         "mae":"Maria José"
     }
