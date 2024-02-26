@@ -1,15 +1,22 @@
 .lista-card{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     row-gap:10px ;
-    text-align: center;
-    width: fit-content;
-    
+    column-gap: 10px;
+
 }
 
 .card{
     border: 1px solid red;
-    
-    
+    width: fit-content;
+    padding: 0px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lista-card .card h3{
+    margin-top: 0px;
 }
 

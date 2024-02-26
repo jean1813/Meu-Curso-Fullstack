@@ -1,7 +1,9 @@
 async function people(){
+    // cria uma variavel que recebe a resposta da busca pro "produtos.json"
     let busca = await fetch("produtos.json") 
+    //converte o objeto resposta eu um arquivo legivel pelo JS
     let produtos = await busca.json() 
-
+    
     let grupoDiv = document.getElementById("lista-card")
 
     for(let produto of produtos){
