@@ -1,8 +1,8 @@
 .lista-card{
     display: flex;
     flex-wrap: wrap;
-    row-gap:24px ;
-    column-gap: 24px;
+    row-gap: 14px;
+    column-gap: 14px;
 
 }
 
@@ -20,4 +20,25 @@
     margin-top: 0px;
     
 }
+
+.lista1-card{
+
+    background-color: aqua;
+    text-align: center;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    flex-wrap: wrap;
+
+}
+
+div{
+    padding: 20px;
+    
+}
+body{
+    background-color:gray;
+}
+
 
