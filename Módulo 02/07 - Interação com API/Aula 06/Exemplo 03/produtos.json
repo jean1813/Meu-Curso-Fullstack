@@ -1,4 +1,5 @@
 [
+
     {
         "nome":"Drone DJI",
         "marca":"DJI",
@@ -16,4 +17,5 @@
         "marca":"Beats",
         "valor": 2399
     }
+    
 ]

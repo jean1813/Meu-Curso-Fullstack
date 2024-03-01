@@ -8,10 +8,13 @@ async function people(){
 
     for(let produto of produtos){
         grupoDiv.innerHTML +=`
+        
            <div class = "card">
+
                 <h3>${produto.nome}</h3>
                 <p>${produto.marca}</p>
                 <p>${produto.valor}</p>
+
            </div>
         `
     }   
