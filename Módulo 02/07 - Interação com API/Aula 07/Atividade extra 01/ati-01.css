@@ -1,0 +1,30 @@
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 14px;    
+}
+
+.card{
+    border: 1px solid red;
+    width:fit-content;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px blue;
+    text-shadow: 2px 2px 2px red;
+
+    
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px red;
+}
+
+button{
+    background-color: aqua;
+    color: red;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "time": "Flamengo",
+        "estado": "Rio de janeiro",
+        "estadio": "Maracana",
+        "img": "https://i.pinimg.com/736x/0a/da/8e/0ada8e8a0b20347bd3831ec197ecc343.jpg"
+    },
+
+    {
+        "time": "Fortaleza",
+        "estado": "Ceara",
+        "estadio": "Castelao",
+        "img": "https://i.pinimg.com/736x/6b/42/bb/6b42bbdf078e718397f0de581321a647.jpg"
+    },
+
+    {
+        "time": "Altos",
+        "estado": "Piaui",
+        "estadio": "Albertao",
+        "img": "https://i.pinimg.com/originals/29/63/2c/29632c9143237d831c8ad1b3f7793f02.jpg"
+    },
+
+    {
+        "time": "Palmeiras",
+        "estado": "Sao Paulo",
+        "estadio": "Alianz Park",
+        "img": "https://i.pinimg.com/736x/49/ce/25/49ce259a44c02bb4deb037dac8b9a54a.jpg"
+    }
+
+]
