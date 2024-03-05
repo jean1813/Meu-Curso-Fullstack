@@ -7,17 +7,13 @@ async function brasil(){
 
     for (let gol of fut) {
         aposta.innerHTML +=`
-        <div class="card">
-
-        <p>${gol.time}</p>
-        <p>${gol.estado}</p>
-        <p>${gol.estadio}</p>
-        <img src="${gol.img}" width="200" height ="200"> 
-
-        </div>
+            <div class="card">
+                <p>${gol.time}</p>
+                <p>${gol.estado}</p>
+                <p>${gol.estadio}</p>
+                <img src="${gol.img}" width="200" height="200"> 
+            </div>
         `
-        
-        
     }
     
 }

@@ -1,0 +1,38 @@
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 14px;  
+}
+
+.card{
+    border: 1px solid red;
+    width:fit-content;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px blue;  
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+
+header ul, li{
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 14px;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgb(171, 14, 14)
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+}
+    
+   

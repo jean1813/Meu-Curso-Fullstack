@@ -1,0 +1,34 @@
+[
+    {
+        "marca": "adidas",
+        "modelo": "camisa",
+        "produto": "chinelo",
+        "acessorio": "bone",
+        "img": "https://www.shutterstock.com/image-photo/kiev-ukraine-november-16-2017-600nw-757799287.jpg"
+    },
+
+    {
+        "bermuda": "nike",
+        "camisa": "nike",
+        "chinelo": "nike",
+        "bone": "nike",
+        "img": "https://www.inspireuplift.com/resizer/?image=https://cdn.inspireuplift.com/uploads/images/seller_products/1683683709_BR210607HL37.jpg&width=600&height=600&quality=90&format=auto&fit=pad"
+    },
+
+    {
+        "bermuda": "penalty",
+        "camisa": "penalty",
+        "chinelo": "penalty",
+        "bone": "penalty",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXe_DD1HZYqTukWHZ5yQyUa0rtf5CTluYJYw&usqp=CAU"
+    },
+
+    
+    {
+        "marca": "puma",
+        "camisa": "puma",
+        "chinelo": "puma",
+        "bone": "puma",
+        "img": "https://www.shutterstock.com/image-vector/puma-icon-logo-art-design-260nw-2276794081.jpg"
+    }
+]
