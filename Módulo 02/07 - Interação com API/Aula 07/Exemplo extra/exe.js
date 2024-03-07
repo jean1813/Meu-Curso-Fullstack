@@ -49,3 +49,5 @@ const usuario1 = {ntn: ntn, forca: forca, ocupacao: ocupacao};
 const usuario2 = {ntn, forca, ocupacao};
 console.log(usuario2);
 // { nome"joaquina", forca: 12, ocupacao: ocupacao }
+
+
