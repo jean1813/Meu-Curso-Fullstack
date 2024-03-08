@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Jean",
+        "sobrenome": "Carlos",
+        "apelido": "Leão",
+        "time":"Flamengo",
+        "img": "https://cdn.deliway.com.br/blog/base/590/a05/e5d/cerveja-budweiser.jpg"
+    },
+
+    {
+        "nome": "Fagno",
+        "sobrenome": "Soares",
+        "apelido": "Cabeludo",
+        "time":"Internacional",
+        "img":"https://i.em.com.br/v5iFGabptq9sFc7s9E0sYz5chhI=/1200x900/smart/imgsapp.em.com.br/app/noticia_127983242361/2023/07/27/1526151/varias-marcas-de-cerveja-e-tira-gosto_1_177005.jpeg"
+    },
+
+    {
+        "nome": "Marcio",
+        "sobrenome": "Rocha",
+        "apelido": "Badu",
+        "time":"Flamengo",
+        "img":"https://istoedinheiro.com.br/wp-content/uploads/sites/17/2023/07/spaten0001-1.jpg"
+    },
+
+    {
+        "nome": "Leonardo",
+        "sobrenome": "Martins",
+        "apelido": "Fraqueza",
+        "time":"Vasco",
+        "img": "https://clubedocervejeiro.com/wp-content/uploads/2022/03/cerveja-corona-marca-mais-valiosa.webp"
+    }
+    
+]
