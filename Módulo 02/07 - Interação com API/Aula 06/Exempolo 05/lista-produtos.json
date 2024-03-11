@@ -1,0 +1,31 @@
+[
+    {
+        "nome":"Carro de Brinquedo Eletrico",
+        "descricao":"As crianças adoram.",
+        "valorComDesconto":"150",
+        "valorSemDesconto":"200"
+    },
+
+    {
+        "nome":"TV Led 4K Sony ",
+        "descricao":"melhor imgem de alta definiçao.",
+        "valorComDesconto":"3000",
+        "valorSemDesconto":"3500"
+    },
+
+    {
+        "nome":"Ar Condiconado Consul",
+        "descricao":"melhor de sua categoria.",
+        "valorComDesconto":"2500",
+        "valorSemDesconto":"3000"
+    },
+
+    {
+        "nome":"Fogao de 6 bocas",
+        "descricao":"mais economia no seu dia a dia.",
+        "valorComDesconto":"2500",
+        "valorSemDesconto":"3000"
+    }
+
+        
+]
