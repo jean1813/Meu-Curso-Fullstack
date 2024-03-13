@@ -14,10 +14,11 @@ async function buscas(){
         divLista.innerHTML += `
             <div class="card">
                 <h3>${produto.nome}</h3>
+                    <img src="${produto.img} "width="200" height="200"/>
                 <p>${produto.descricao}</p>
                 <div class="valores">
-                    <span>R$ ${produto.valorComDesconto.toFixed(2)}</span>
-                    <span>R$ ${produto.valorSemDesconto.toFixed(2)}</span>
+                    <span class="valorCom">R$ ${produto.valorComDesconto.toFixed(2).replace(".", ",")}</span>
+                    <span class="valorSem">R$ ${produto.valorSemDesconto.toFixed(2).replace(".",",")}</span>
                 </div>
             </div>
         `
@@ -31,6 +32,7 @@ buscas()
             //<div class="card">
 
                 //<h3>${produtos[produto].nome}</h3>
+                //<img src="${produtos.[produto}" width="200" height="200"/>
                // <p>${produtos[produto].descricao}</p>
                // <p>${produto[produto].valorComDesconto}</p>
                // <p>${produto[produto].valorSemDesconto}</p>

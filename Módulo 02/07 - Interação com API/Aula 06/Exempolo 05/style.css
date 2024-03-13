@@ -1,6 +1,6 @@
 .lista-card{
     display: flex;
-    border: 2px dashed blue;
+    /*border: 2px dashed blue;*/
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
@@ -12,11 +12,32 @@
     display: flex; 
     flex-direction: column;
     background-color: white;
-    text-align: center;
+    align-items: center;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4pxgold;
 }
 
-body{
+/*body{
     background-color: gray;
+}*/
+
+.valorCom{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+.valorSem{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;  
+} 
+
+/*.frame-div{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}*/
