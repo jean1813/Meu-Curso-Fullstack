@@ -1,0 +1,35 @@
+[
+    {
+        "nome":"Carro de Brinquedo Eletrico",
+        "img":"https://http2.mlstatic.com/D_NQ_NP_634115-MLB72102256660_102023-O.webp",
+        "descricao":"As crianças adoram.",
+        "valorComDesconto": 150,
+        "valorSemDesconto": 200
+    },
+
+    {
+        "nome":"TV Led 4K Sony ",
+        "img":"https://a-static.mlcdn.com.br/450x450/smart-tv-led-32-sony-kdl-32w655d-hd-wi-fi-conversor-digital-2-hdmi-2-usb/mega-mamute/70169/617393d09f006527c916d285b7c41809.jpeg",
+        "descricao":"Imgem de alta definiçao.",
+        "valorComDesconto": 3000,
+        "valorSemDesconto": 3500
+    },
+
+    {
+        "nome":"Ar Condiconado Consul",
+        "img":"https://d296pbmv9m7g8v.cloudfront.net/Custom/Content/Products/99/09/990903_ar-condicionado-split-consul-cbu09cb-9000-btus-quente-frio-220v_m41_636737325840118672",
+        "descricao":"Melhor de sua categoria.",
+        "valorComDesconto": 2500,
+        "valorSemDesconto": 3000
+    },
+
+    {
+        "nome":"Fogão Brastemp de 6 bocas",
+        "img":"https://a-static.mlcdn.com.br/450x450/fogao-6-bocas-brastemp-clean-bfs6naruna-inox-acendimento-automatico/magazineluiza/012263700/f2c50967ed56b0810b810b4c0e35f6eb.jpg",
+        "descricao":"Mais economia no seu dia a dia.",
+        "valorComDesconto": 2500,
+        "valorSemDesconto": 3000
+    }
+
+        
+]
