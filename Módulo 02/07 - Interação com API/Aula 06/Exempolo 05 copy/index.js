@@ -12,9 +12,9 @@ async function buscas(){
     // Quantas linhas de comando tem dentro do for? => 1 linha(divLista.inneHTML)
     for(let produto of produtos){
         divLista.innerHTML += `
-            <div class="card">
+            <div class="card" data-id="${produto.id}">
                 <h3>${produto.nome}</h3>
-                    <img src="${produto.img} "width="200" height="200"/>
+                <img src="${produto.img} "width="200" height="200"/>
                 <p>${produto.descricao}</p>
                 <div class="valores">
                     <span class="valorCom">R$ ${produto.valorComDesconto.toFixed(2).replace(".", ",")}</span>
@@ -23,6 +23,9 @@ async function buscas(){
             </div>
         `
     }
+
+    let divsCards = document.getElementsByClassName("card")
+    
 }
 buscas()
 
