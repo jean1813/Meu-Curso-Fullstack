@@ -8,7 +8,7 @@ async function buscas(){
     //console.log(produtos)
     //alert(procura)
 
-    // por que usar o for? => pra percorrer uma lista
+   // por que usar o for? => pra percorrer uma lista
     // Quantas linhas de comando tem dentro do for? => 1 linha(divLista.inneHTML)
     for(let produto of produtos){
         divLista.innerHTML += `
@@ -25,8 +25,18 @@ async function buscas(){
     }
 
     let divsCards = document.getElementsByClassName("card")
+    for(let card of divsCards){
+        card.addEventListener("click", clicou)
+    }
     
 }
+function clicou(){
+    //alert("jean Dev do senai") => quando em cima de cada card
+    let elementoId = this.getAttribute("data-id")
+    alert(elementoId)
+
+}
+
 buscas()
 
     //in = ao indice da lista(0,1,2...)
