@@ -23,21 +23,27 @@ async function buscas(){
             </div>
         `
     }
-
-    let divsCards = document.getElementsByClassName("card")
+    // Buscar por todos os elementos HTML que contém "card"
+    // como valor do parâmetro "class".
+    let divsCards = document.getElementsByClassName("card") 
+    // Add em cada Div Card um evento que escuta quando o 
+    // usuário clica nele, e chama uma função.
     for(let card of divsCards){
-        card.addEventListener("click", clicou)
+        card.addEventListener("click", clicou)          
     }
     
 }
 function clicou(){
     //alert("jean Dev do senai") => quando em cima de cada card
     let elementoId = this.getAttribute("data-id")
-    alert(elementoId)
+    //alert(window.location.href) endereço atual da pagina
+    window.location.href = "detalhes.html?produto-id=" + elementoId
+
 
 }
 
 buscas()
+
 
     //in = ao indice da lista(0,1,2...)
     //for(let produto in produtos){

@@ -42,11 +42,22 @@
     flex-direction: row;
 }*/
 
+header {
+    /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
 header nav ul h3{
     display: flex;
     flex-direction: column;
     color: aliceblue;
     font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
     
     
 }
@@ -56,7 +67,11 @@ header nav ul li{
     flex-direction: column;
     background-color: blue;
     display: flex;
-    color: brown;
+    color: whitesmoke;
+    font-size: 20px;
+    
+    
+    
 }
 
 

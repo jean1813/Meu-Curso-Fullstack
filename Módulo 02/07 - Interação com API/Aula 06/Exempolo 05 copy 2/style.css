@@ -34,6 +34,41 @@
     text-decoration: line-through;  
 } 
 
+/* Estilizando o header */
+header {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilizando o título do header */
+header h1 {
+    margin: 0; /* Remove margem padrão */
+}
+
+/* Estilizando a navegação dentro do header */
+header nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estilizando os itens de navegação */
+header nav ul li {
+    display: inline; /* Exibir em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilizando os links de navegação */
+header nav ul li a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Estilizando os links de navegação quando hover (passar o mouse) */
+header nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
 /*.frame-div{
     width: 250px;
     height: 150px;
