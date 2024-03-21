@@ -1,8 +1,12 @@
 async function buscarDetalhes(){
     let busca = await fetch("lista-produtos.json")
     let produtos = await busca.json()
-
-    //document.body.innerHTML
     
-    
+    let parametros = new URLSearchParams(window.location.search)
+    let parametroID = parametros.get("produto-id")
+    alert(parametroID)
+    //alert(window.location.search)// => ?produto-id=1
 }
+
+buscarDetalhes()
+
