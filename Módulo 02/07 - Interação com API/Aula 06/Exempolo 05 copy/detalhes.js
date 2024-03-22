@@ -23,6 +23,7 @@ async function buscarDetalhes(){
     }
 
     document.body.innerHTML = `
+        <h3>${produtos[indiceProd].nome}</h3>
         <img src="${produtos[indiceProd].img}" width="250" height"250">
     `
     //alert("indiceProd= "  + indiceProd)
