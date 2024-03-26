@@ -1,34 +1,38 @@
 [
     {
-        "nome":"",
-        "img":"",
-        "descricao":"",
-        "valorComDesconto": ,
-        "valorSemDesconto": 
+        "id":1,
+        "nome":"FLAMENGO",
+        "img":"https://tse1.mm.bing.net/th?id=OIP.InRBL7NYPwvE5fAXWj1LZQHaHa&pid=Api&P=0&h=180",
+        "descricao":"Maior campeão do campeonato carioca",
+        "valorComDesconto": 350,
+        "valorSemDesconto": 400
     },
 
     {
-        "nome":"",
-        "img":"",
-        "descricao":"",
-        "valorComDesconto": ,
-        "valorSemDesconto": 
+        "id":2,
+        "nome":"BARCELONA",
+        "img":"https://artwellness.com/wp-content/uploads/2020/07/Barcelona-logo-escudo-1600x1622.png",
+        "descricao":"Maior campeão do campeonato espanhol",
+        "valorComDesconto": 350,
+        "valorSemDesconto": 400
     },
 
     {
-        "nome":"",
-        "img":"",
-        "descricao":"",
-        "valorComDesconto": ,
-        "valorSemDesconto": 
+        "id":3,
+        "nome":"BOCA JUNIORS",
+        "img":"https://tse4.mm.bing.net/th?id=OIP.ycKwGjv7olDmu39vckKsVwHaEo&pid=Api&P=0&h=180",
+        "descricao":"Maior campeão do campeonato argentino",
+        "valorComDesconto": 350,
+        "valorSemDesconto": 400
     },
 
     {
-        "nome":"",
-        "img":"",
-        "descricao":"",
-        "valorComDesconto": ,
-        "valorSemDesconto": 
+        "id":4,
+        "nome":"CHELSEA",
+        "img":"https://tse4.mm.bing.net/th?id=OIP.nlzmyqzY9SUfH9YMzt_GPQHaHa&pid=Api&P=0&h=180",
+        "descricao":"Maior campeão do campeonato inglês",
+        "valorComDesconto": 350,
+        "valorSemDesconto": 400
     }
 
         

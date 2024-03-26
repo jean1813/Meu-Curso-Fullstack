@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
+    
 }
 
 .card{
@@ -15,7 +16,7 @@
     align-items: center;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px;
+    box-shadow: 1px 1px 4px;
     
 }
 

@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
+    padding: 5px;
 }
 
 .card{
@@ -15,7 +16,7 @@
     align-items: center;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 4px 4pxgold;
+    box-shadow: 4px 4px gold;
 }
 
 /*body{
@@ -76,3 +77,18 @@ header nav ul li a:hover {
     justify-content: center;
     flex-direction: row;
 }*/
+.detalhes-corpo{
+    border: 2px solid blue;
+    width: fit-content;
+    color: red;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;  
+}
+
+.bbb{
+    color: blue;
+    text-decoration: line-through;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}

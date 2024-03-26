@@ -12,7 +12,7 @@ async function buscas(){
     // Quantas linhas de comando tem dentro do for? => 1 linha(divLista.inneHTML)
     for(let produto of produtos){
         divLista.innerHTML += `
-            <div class="card">
+            <div class="card" data-id="${produto.id}">
                 <h3>${produto.nome}</h3>
                     <img src="${produto.img} "width="200" height="200"/>
                 <p>${produto.descricao}</p>
@@ -23,23 +23,19 @@ async function buscas(){
             </div>
         `
     }
-}
+
+    let divsCards = document.getElementsByClassName("card") 
+
+    for(let card of divsCards){
+           card.addEventListener("click", clicou)          
+    }
+
+       
+}   
 buscas()
 
-    //in = ao indice da lista(0,1,2...)
-    //for(let produto in produtos){
-       // divLista.innerHTML += `
-            //<div class="card">
-
-                //<h3>${produtos[produto].nome}</h3>
-                //<img src="${produtos.[produto}" width="200" height="200"/>
-               // <p>${produtos[produto].descricao}</p>
-               // <p>${produto[produto].valorComDesconto}</p>
-               // <p>${produto[produto].valorSemDesconto}</p>
-
-            //</div>
-
-        //`
-    //}
-
-
+function clicou(){
+    let elementoId = this.getAttribute("data-id")
+    window.location.href = "detalhes2.html?produto-id=" + elementoId
+    //alert(elementoId)
+}
