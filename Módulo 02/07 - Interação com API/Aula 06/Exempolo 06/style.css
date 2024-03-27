@@ -1,0 +1,86 @@
+.lista-card{
+    display: flex;
+    /*border: 2px dashed blue;*/
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.card{
+    border: 1px solid red;
+    width: fit-content;
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4pxgold;
+}
+
+/*body{
+    background-color: gray;
+}*/
+
+.valorCom{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.valorSem{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;  
+} 
+
+/*.frame-div{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}*/
+
+header {
+    /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+header nav ul h3{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+    
+    
+}
+
+header nav ul li{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    display: flex;
+    color: whitesmoke;
+    font-size: 20px; 
+    
+}
+
+.detalhes-corpo{
+    border: 2px solid blue;
+    width: fit-content;
+    border-radius:2px solid red;
+    
+}
+
+.color{
+    display: flex;
+    color: red;
+    flex-direction: column;
+}

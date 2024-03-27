@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nome":"Carro de Brinquedo Eletrico",
+        "img":[
+                "https://http2.mlstatic.com/D_NQ_NP_634115-MLB72102256660_102023-O.webp",
+                "https://http2.mlstatic.com/D_NQ_NP_634115-MLB72102256660_102023-O.webp",
+                "https://http2.mlstatic.com/carrinho-eletrico-bmw-i8-para-criancas-branco-belfix-D_NQ_NP_849492-MLB29820080705_042019-F.jpg"
+                ],
+        "descricao":"As crianças adoram.",
+        "valorComDesconto": 150,
+        "valorSemDesconto": 200
+    },
+
+    {
+        "id": 2,
+        "nome":"TV Led 4K Sony ",
+        "img":[
+                 "https://a-static.mlcdn.com.br/450x450/smart-tv-led-32-sony-kdl-32w655d-hd-wi-fi-conversor-digital-2-hdmi-2-usb/mega-mamute/70169/617393d09f006527c916d285b7c41809.jpeg",
+                 "https://tse4.mm.bing.net/th?id=OIP.7liT6nPIJBqcm5tmZubBrQHaEW&pid=Api&P=0&h=180",
+                 "https://tse4.mm.bing.net/th?id=OIP.IoY5M86Wa1WMqRpmXT7WngHaEp&pid=Api&P=0&h=180"
+               ],
+        "descricao":"Imgem de alta definiçao.",
+        "valorComDesconto": 3000,
+        "valorSemDesconto": 3500
+    },
+
+    {
+        "id": 3,
+        "nome":"Ar Condiconado Consul",
+        "img":[
+                 "https://d296pbmv9m7g8v.cloudfront.net/Custom/Content/Products/99/09/990903_ar-condicionado-split-consul-cbu09cb-9000-btus-quente-frio-220v_m41_636737325840118672",
+                 "https://tse4.mm.bing.net/th?id=OIP.YzrahOmcmqahj5nzH-t7UgHaHa&pid=Api&P=0&h=180",
+                 "https://www.consulassistenciaar.com.br/wp-content/uploads/2017/01/servicos-para-ar-condicionado-consul-1.jpg"
+                 ],
+        "descricao":"Melhor de sua categoria.",
+        "valorComDesconto": 2500,
+        "valorSemDesconto": 3000
+    },
+
+    {
+        "id": 4,
+        "nome":"Fogão Brastemp de 6 bocas",
+        "img":[
+                 "https://a-static.mlcdn.com.br/450x450/fogao-6-bocas-brastemp-clean-bfs6naruna-inox-acendimento-automatico/magazineluiza/012263700/f2c50967ed56b0810b810b4c0e35f6eb.jpg",
+                 "https://tse3.mm.bing.net/th?id=OIP.zEZbaOiQJiMWMxOn1hxGMgHaHa&pid=Api&P=0&h=180",
+                 "https://brastemp.vtexassets.com/arquivos/ids/229891/7891129530393_0.jpg?v=637974024265370000"
+            
+                ],
+        "descricao":"Mais economia no seu dia a dia.",
+        "valorComDesconto": 2500,
+        "valorSemDesconto": 3000
+    }
+
+        
+]
