@@ -1,0 +1,39 @@
+[
+    {
+        "id":"1",
+        "nome":"Omega 3,6,9",
+        "img":"https://farmadelivery.vtexassets.com/arquivos/ids/307348/image-62ede81ec5f54dd5befbf3349203a50f.jpg?v=638309250958200000",
+        "descricao":"Ajuda na circulação",
+        "valorComDesconto": 80 ,
+        "valorSemDesconto": 100
+    },
+
+    {
+        "id":"2",
+        "nome":"Cloreto de Magnésio",
+        "img":"https://tse2.mm.bing.net/th?id=OIP.9s9DHAqwNK10zFsf4ltvPAHaFj&pid=Api&P=0&h=180",
+        "descricao":"Recomendado pelos médicos",
+        "valorComDesconto": 45 ,
+        "valorSemDesconto": 60
+    },
+
+    {
+        "id":"3",
+        "nome":"Cloreto de Potássio",
+        "img":"https://cdn.hsnstore.com/media/catalog/product/p/o/potassium-chloride-227g-now-foods_1.jpg",
+        "descricao":"Vários beneficiios para a saúde",
+        "valorComDesconto": 75 ,
+        "valorSemDesconto": 90
+    },
+
+    {
+        "id":"4",
+        "nome":"Cúrcuma",
+        "img":"https://tse2.mm.bing.net/th?id=OIP.0g0-63sntCAZ47dTpH9wKAHaHa&pid=Api&P=0&h=180",
+        "descricao":"anti-inflamatório natural",
+        "valorComDesconto": 60,
+        "valorSemDesconto": 80
+    }
+
+        
+]
