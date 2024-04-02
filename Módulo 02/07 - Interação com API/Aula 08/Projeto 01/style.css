@@ -2,9 +2,11 @@ header {
     background-color: gray;
     color: #fff;
     padding: 20px;
-    text-align: center;
-    
+    text-align: center;  
+    border-radius: 10px;
 }
+
+
 
 .logo {
     font-size: 24px;
@@ -25,10 +27,58 @@ nav ul li a {
 }
 h1{
     color: blue;
-    text-shadow: 2px 2px 4px red  
+    text-shadow: 2px 2px 2px black;  
 }
 
 p{
     width: fit-content;
     
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 5px;
+}
+
+.people{
+    color:blue ;
+    font-family: sans-serif ;
+    text-align: justify ;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto do footer */
+    padding: 20px; /* Espaçamento interno do footer */
+    text-align: center; /* Alinhamento do texto no centro */
+    /*position: fixed;*/ /* Posicionamento fixo na parte inferior */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinhar ao rodapé */
+  }
+
+  button{
+    background-color: brown;
+  }
+
+  .pesquisa{
+    color: blue;
+  }
+
+  a{
+    width: fit-content;
+  }
+
+  
