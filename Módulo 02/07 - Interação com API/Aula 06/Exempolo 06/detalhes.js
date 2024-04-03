@@ -8,10 +8,10 @@ async function buscarDetalhes(){
 
     let indiceProd
     for(let x in produtos){
-        console.log("o valor de x é: " + x)
-        console.log(`produtos[x].id é: ${produtos[x].id}`)
-        console.log(`parametroID é: ${parametroID}`)
-        console.log(`${produtos[x].id} == ${parametroID}`) 
+        //console.log("o valor de x é: " + x)
+        //console.log(`produtos[x].id é: ${produtos[x].id}`)
+        //console.log(`parametroID é: ${parametroID}`)
+        //console.log(`${produtos[x].id} == ${parametroID}`) 
         if(produtos[x].id == parametroID){   
             indiceProd = x   
         }

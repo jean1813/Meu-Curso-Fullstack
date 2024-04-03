@@ -1,7 +1,7 @@
 async function buscarDetalhes(){  
     let busca = await fetch("projeto.json")
     let produtos = await busca.json()
-    //console.log(produtos)
+    console.log(produtos)
 
     let parametros = new URLSearchParams(window.location.search)
     let parametroID = parametros.get("produto-id")
@@ -17,7 +17,7 @@ async function buscarDetalhes(){
         }
     }
     document.getElementById("detalhes").innerHTML += ` 
-            <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height="250" style="border: 1px solid #000">
+            <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height"250" style="border: 1px solid #000">
             <div class="miniaturas" id="miniaturas"></div>
             <h3>${produtos[indiceProd].nome}</h3>
             <p>${produtos[indiceProd].descricao}</p>
@@ -29,7 +29,7 @@ async function buscarDetalhes(){
         let divMiniaturas = document.getElementById("miniaturas")
         for(let y of produtos[indiceProd].img){
             divMiniaturas.innerHTML +=`
-                <img src="${y}" class="mini" width="80" height="80" style="border: 1px solid #000">
+                <img src="${y}" class="mini" width="80" height=80" style="border: 1px solid #000">
             `
         }
 
