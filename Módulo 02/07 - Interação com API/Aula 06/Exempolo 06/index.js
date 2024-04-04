@@ -3,7 +3,7 @@ async function buscas(){
     let procura = await fetch("lista-produtos.json")//objeto resposta
     let produtos = await procura.json()//lista do objeto resposta
     let divLista = document.getElementById("lista-card")//retorna a tag html div.
-    alert(procura)
+    //alert(procura)
 
     for(let produto of produtos){
         divLista.innerHTML += `
