@@ -20,7 +20,7 @@ async function buscarDetalhes(){
             <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height"250" style="border: 1px solid #000">
             <div class="miniaturas" id="miniaturas"></div>
             <h3>${produtos[indiceProd].nome}</h3>
-            <p>${produtos[indiceProd].descricao}</p>
+            <p class="ptr">${produtos[indiceProd].descricao}</p>
             <div class="valores">
                 <span> O valor com desconto: R$ ${produtos[indiceProd].valorComDesconto.toFixed(2).replace(".", ",") }</span>
                 <span> O valor sem desconto: R$ ${produtos[indiceProd].valorSemDesconto.toFixed(2).replace(".", ",")}</span>

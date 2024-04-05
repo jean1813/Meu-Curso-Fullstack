@@ -2,6 +2,7 @@
     {
         "id":"1",
         "nome":"Relógio Digital",
+        "desconto": 18,
         "img":["https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/7fcd1e7bcaaec5f9810f941dce0125cc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"],
         "descricao":"ESSE RELÓGIO É EXCELENTE PARA QUEM DESEJA MODERNIDADE E ESTILO.",
         "valorComDesconto": 80 ,
@@ -11,6 +12,7 @@
     {
         "id":"2",
         "nome":"BONÉ PERSONALIZADO",
+        "desconto": 18,
         "img":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3jb1L9EGFrMISDFIFHy_YLq_86R5ksLknOpwis1vxA&s"],
         "descricao":"ESTILO SOFISTICADO PARA O SEU DIA A DIA.",
         "valorComDesconto": 100 ,
@@ -20,6 +22,7 @@
     {
         "id":"3",
         "nome":"CAMISA PERSONALIZADA",
+        "desconto": 25,
         "img":["https://imgcentauro-a.akamaihd.net/360x360/M0V6BY14/camiseta-whats-wear-lisa-dry-fit-com-protecao-solar-uv-masculina-img.jpg"],
         "descricao":"CONFORTO E PRATICIDADE PARA O SEU DIA A DIA.",
         "valorComDesconto": 90 ,

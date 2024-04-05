@@ -5,115 +5,187 @@ body {
     background-color: #f2f2f2;
     min-height: 100vh;
     position: relative;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 24px;
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .product {
-    display: flex;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-top: 20px;
-  }
-  
-  .product-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .product-info {
-    padding: 20px;
-  }
-  
-  .product-name {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .product-description {
-    margin: 10px 0;
-    color: #666;
-  }
-  
-  .product-price {
-    margin: 10px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .product-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #333;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .product-button:hover {
-    background-color: #555;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-   
-    bottom: 0;
-    width: 100%;
-  }
+}
 
-  h1{
-    text-align: center;
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .btn{
-    margin: 10PX;
-  }
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.product {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.product-description {
+  margin: 10px 0;
+  color: #666;
+}
+
+.product-price {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+.pagamento{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  padding:10px ;
+  margin: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  width: fit-content;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.tamanho{
+  border: 2px solid red;
+  width: fit-content;
+  margin: 10px;
+}
+
+.valores{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.ptr{
+  color: blue;
+}
+
+h3{
+  color: green;
+  margin: 0px;
+}
+
+.selecao{
+  width: 150px;
+}
+
+.hover{
+  background-color: #4CAF50; /* Cor de fundo padrão */
+  border: none;
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.2s; /* Duração da transição */
+  cursor: pointer;
+}
+
+/* Mudando a cor do botão quando passa o mouse sobre ele */
+.hover:hover {
+  background-color: red; /* Nova cor de fundo */
+}
+
+.ns-h6mex-e-23{
+  font-size: 20px;
+  position:absolute;
+  top: 0%; /* Posicionando o span a 50% do topo do contêiner */
+  right: 0%; /* Posicionando o span a 50% da esquerda do contêiner */
+  background-color: rgba(216, 216, 216, 0.7); /* Cor de fundo do span */
+  padding: 5px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+.lado{
+  position: relative; /* Para posicionar os elementos filhos relativamente a este contêiner */
+  display: inline-block; /* Para garantir que o contêiner tenha apenas o tamanho necessário */
+}
+
+
+
+
 
   
