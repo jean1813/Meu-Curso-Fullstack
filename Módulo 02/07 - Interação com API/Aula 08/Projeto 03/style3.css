@@ -1,0 +1,23 @@
+.nav-links{
+    font-weight: bold;
+    
+}
+
+a{
+    color: red;
+    padding: 20px;
+    align-items: center;
+    border: 2px solid gray;
+}
+p{
+    color:lightskyblue;
+    font-weight: bold;
+}
+
+.paragrafo{
+    width: 300px;
+}
+
+.footer{
+    font-size: 20px;
+}
