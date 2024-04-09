@@ -1,11 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    min-height: 100vh;
-    position: relative;
+html{
+  height: 100%;
 }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/7207818-futurista-tecnologico-grade-fundo-digital-futurista-ciber-espaco-design-cyberpunk-tecnologia-realidade-virtual-ficcao-cientifica-matriz-ciencia-luz-perspectiva-papel-de-parede-ilustracaoial-gratis-vetor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} 
+
+.pagina{
+  display: flex;
+  flex-direction: column;
+}
+
 
 .container {
   max-width: 800px;
@@ -110,35 +125,42 @@ body {
 
 h1{
   text-align: center;
+  color: #fff;
 }
 
 .pagamento{
   display: flex;
   flex-direction: column;
-  border: 2px solid blue;
+  border: 2px solid white;
   padding:10px ;
-  margin: 10px;
+  margin-left: 30px;
   border-radius: 20px;
   justify-content: center;
   width: fit-content;
   row-gap: 10px;
   align-items: center;
+  
 }
 
 .tamanho{
   border: 2px solid red;
   width: fit-content;
-  margin: 10px;
+  margin-left: 30px;
+  padding: 10px;
+
+  
 }
 
 .valores{
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  
+  color: white;
 }
 
 .ptr{
-  color: blue;
+  color: white;
 }
 
 h3{
@@ -162,6 +184,8 @@ h3{
   margin: 4px 2px;
   transition-duration: 0.2s; /* Duração da transição */
   cursor: pointer;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
 }
 
 /* Mudando a cor do botão quando passa o mouse sobre ele */
@@ -182,6 +206,36 @@ h3{
 .lado{
   position: relative; /* Para posicionar os elementos filhos relativamente a este contêiner */
   display: inline-block; /* Para garantir que o contêiner tenha apenas o tamanho necessário */
+}
+
+.lista-card{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 10px;
+  width: fit-content;
+  
+}
+
+.card{
+  border: 1px solid white;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  
+}
+
+.main {
+  flex-grow: 1; /* Faz a div 'main' crescer e ocupar todo o espaço disponível */
+}
+
+.footer {
+  align-self: flex-end; /* Alinha o 'footer' na extremidade inferior do corpo */
+}
+
+.detalhes{
+  margin-left: 30px;
 }
 
 

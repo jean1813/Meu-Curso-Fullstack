@@ -1,23 +1,21 @@
-.nav-links{
-    font-weight: bold;
-    
+#cabecalho{
+    height: 150px;
+    background-color: orange;
 }
 
-a{
-    color: red;
-    padding: 20px;
-    align-items: center;
-    border: 2px solid gray;
-}
-p{
-    color:lightskyblue;
-    font-weight: bold;
+
+
+#menu{
+    height: 150px;
+    background-color: greenyellow;
 }
 
-.paragrafo{
-    width: 300px;
+#principal{
+    height: 150px;
+    background-color:
 }
 
-.footer{
-    font-size: 20px;
+#menu{
+    height: 150px;
+    background-color: greenyellow;
 }

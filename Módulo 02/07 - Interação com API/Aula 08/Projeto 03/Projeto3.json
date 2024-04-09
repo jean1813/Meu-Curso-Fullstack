@@ -1,24 +1,24 @@
 [
     {
         "id":"1",
-        "nome":"SENAC",  
-        "img":["https://www.mundograduado.com/wp-content/uploads/2016/08/cursosgratuitossenac.jpg"],
-        "descricao":"SERVIÇO NACIONAL DE APRENDIZAGEM COMERCIAL."
+        "nome":"",  
+        "img":[""],
+        "descricao":""
     },
 
     {
         "id":"2",
-        "nome":"SENAI",
-        "img":["https://static.portaldaindustria.com.br/media/uploads/logotipos/logo-senai.png"],
-        "descricao":"SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL."
+        "nome":"",
+        "img":[""],
+        "descricao":""
         
     },
 
     {
         "id":"3",
-        "nome":"SEST SENAT",
-        "img":["https://clickpetroleoegas.com.br/wp-content/uploads/2023/05/Sest-Senat-liberou-2-mil-cursos-online-gratuitos-sem-necessidade-de-processo-seletivo-1200x627.jpg"],
-        "descricao":"Serviço Social do Transporte e Serviço Nacional de Aprendizagem do Transporte."
+        "nome":"",
+        "img":[""],
+        "descricao":""
         
     }
 ]
