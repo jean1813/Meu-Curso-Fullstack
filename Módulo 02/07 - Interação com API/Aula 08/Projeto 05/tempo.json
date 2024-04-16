@@ -1,0 +1,9 @@
+[
+    {
+        "cidade": "São Paulo",
+        "tempo": "Ensolarado",
+        "img":"https://www.svgrepo.com/show/106705/clouds.svg",
+        "temperatura": 28,
+        "umidade": 60
+    }
+]
