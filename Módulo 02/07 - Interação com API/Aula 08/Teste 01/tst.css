@@ -8,6 +8,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-radius: 20px;
 }
 
 main {
@@ -18,22 +19,40 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    text-align: center; 
+    
 }
 
-    .muda {
-        background-color: aqua;
-        font-weight: bold;
-        font-size: 20px;
-        border-radius: 20px;
-    }
 
-    .muda:hover{
-        background-color: red;
-        cursor: pointer;
-    }
+.muda {
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+}
 
-    .footer {
-        border-radius: 20px;
-        
-    }
+.muda:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.footer {
+    border-radius: 20px;
+}
+
+.clique{
+
+    background-color: aqua;
+    margin: 10px;
+    border: none;
+    color: gray;
+    font-size: 25px;
+    border-radius: 25px;
+    
+}
+
+.clique:hover{
+    cursor: move;
+    background-color: burlywood;
+}
+
