@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
     if (username === 'admin' && password === 'password') {
         // Simulando um login bem-sucedido redirecionando para uma página de boas-vindas
-        window.location.href = 'detalhestst2.html';
+        window.location.href = 'Welcome.html';
     } else {
         document.getElementById('error-message').textContent = 'Usuário ou senha incorretos!';
     }

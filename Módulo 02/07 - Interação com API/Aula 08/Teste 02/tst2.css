@@ -7,27 +7,30 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    background-image: url(https://ifrs.edu.br/bento/wp-content/uploads/sites/13/2020/02/INFO.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
 }
 
 .login-container {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-shadow: 2px 2px 20px;
 }
 
-.login-container:hover{
-    background-color: gray;
+.login-icon{
     cursor: pointer;
 }
-
 
 .formulario{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    
 }
 
 input {
@@ -53,4 +56,54 @@ button:hover {
     color: red;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.login-icon {
+    width: 30px; /* ajuste conforme necessário */
+    height: 30px; /* ajuste conforme necessário */  
+    transition: transform 0.3s ease;
+
+}
+
+.login-icon:hover {
+    transform: scale(1.1);
+  }
+
+
+.footer {
+    background-color: #333; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    padding: 20px 0; /* espaçamento interno superior e inferior */
+}
+
+/* Estilo para o texto do footer */
+.footer p {
+    margin-bottom: 0; /* remover a margem inferior do parágrafo */
+}
+
+/* Estilo para tornar o texto centralizado em dispositivos pequenos */
+@media (max-width: 576px) {
+    .footer p {
+        text-align: center;
+    }
+}
+
+
+/* Estilo para o footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+.cor{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
 }

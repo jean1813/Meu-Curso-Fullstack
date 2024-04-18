@@ -1,4 +1,4 @@
-{
+/*{
     "users": [
       {
         "username": "admin",
@@ -13,5 +13,12 @@
         "password": "qwerty"
       }
     ]
-  }
+  }*/
   
+
+  [
+    {
+      "Digite sua nome": "jean carlos",
+      "senha": 2024
+    }
+  ]

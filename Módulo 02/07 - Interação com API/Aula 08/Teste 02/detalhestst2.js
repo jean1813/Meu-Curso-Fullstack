@@ -30,3 +30,14 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     };
     xhr.send();
 });
+
+
+
+/*const icon = document.getElementById('icon');
+
+icon.addEventListener('click', function() {
+  // Aqui você pode adicionar o efeito desejado
+  // Por exemplo, mudar a cor do ícone ou executar alguma animação
+  // Este é apenas um exemplo básico
+  icon.style.filter = 'grayscale(100%)'; // Deixa o ícone em escala de cinza ao clicar
+});*/
