@@ -1,0 +1,56 @@
+button{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    
+}
+
+fieldset{
+    font-weight: bold;
+    font-size: 30px;
+    border: none;  
+}
+
+input{
+    background-color: lightblue;
+    border: none;
+    text-decoration: overline;   
+}
+
+
+.center-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/24/19/41/background-6204936_960_720.jpg);
+    
+}
+
+.Multiplicacao:hover {
+    /* Cor do texto do botão quando o mouse está sobre ele */
+    color: red; /* Mudar a cor para vermelho (por exemplo) */
+}
+
+label{
+    text-decoration: underline;
+}
+
+
+
+
+
+  
