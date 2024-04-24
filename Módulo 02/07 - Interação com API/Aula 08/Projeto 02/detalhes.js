@@ -19,10 +19,7 @@ async function buscarDetalhes(){
         }
     }
     document.getElementById("detalhes").innerHTML += ` 
-            <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height=
-            
-            
-            "250" style="border: 1px solid #000">
+            <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height="250" style="border: 1px solid #000">
             <div class="miniaturas" id="miniaturas"></div>
             <h3>${produtos[indiceProd].nome}</h3>
             <p class="ptr">${produtos[indiceProd].descricao}</p>
@@ -41,8 +38,7 @@ async function buscarDetalhes(){
         let minizinhas = document.getElementsByClassName("mini")
         for(let a of minizinhas){
             a.addEventListener("mouseover", deslize)
-        }
-
+        }navigator
 
     //alert("indiceProd= "  + indiceProd)
     //alert(parametroID)

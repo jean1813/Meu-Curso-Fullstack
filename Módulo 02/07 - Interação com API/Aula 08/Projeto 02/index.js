@@ -18,11 +18,12 @@ async function buscas(){
                     <img class="img-card" src="${produto.img} "width="200" height="200"/>
                     <span class="ns-h6mex-e-23" dir="auto" x-score="1">-25%</span>
                 </div>
+                <div class="descricao">
                 <p>${produto.descricao}</p>
+                </div>
                 <div class="valores">
-                    <span class="valorCom">R$ ${produto.valorComDesconto.toFixed(2).replace(".", ",")}</span>
-                    <span class="valorSem">R$ ${produto.valorSemDesconto.toFixed(2).replace(".",",")}</span>
-                    
+                    <span class="valorCom">R$ Valor com desconto  ${produto.valorComDesconto.toFixed(2).replace(".", ",")}</span>
+                    <span class="valorSem">R$ Valor sem desconto  ${produto.valorSemDesconto.toFixed(2).replace(".",",")}</span>  
                 </div>
             </div>
         `

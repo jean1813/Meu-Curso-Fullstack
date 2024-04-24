@@ -13,7 +13,6 @@ body {
   background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/7207818-futurista-tecnologico-grade-fundo-digital-futurista-ciber-espaco-design-cyberpunk-tecnologia-realidade-virtual-ficcao-cientifica-matriz-ciencia-luz-perspectiva-papel-de-parede-ilustracaoial-gratis-vetor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 } 
 
 .pagina{
@@ -21,23 +20,16 @@ body {
   flex-direction: column;
 }
 
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .navbar {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
-}
-
-.navbar .container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  column-gap: 20px;
 }
 
 .logo {
@@ -51,7 +43,7 @@ body {
   flex-direction: row;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 .nav-links li a {
@@ -115,7 +107,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  
+  align-self: flex-end;
   bottom: 0;
   width: 100%;
 }
@@ -136,7 +128,6 @@ h1{
   width: fit-content;
   row-gap: 10px;
   align-items: center;
-  
 }
 
 .tamanho{
@@ -145,8 +136,6 @@ h1{
   margin-left: 30px;
   padding: 10px;
   color: white;
-
-  
 }
 
 .valores{
@@ -211,9 +200,8 @@ h3{
   display: flex;
   flex-direction: row;
   row-gap: 10px;
-  column-gap: 10px;
-  width: fit-content;
-  
+  column-gap: 100px;
+  width: 80%;
 }
 
 .card{
@@ -221,15 +209,13 @@ h3{
   text-align: center;
   align-items: center;
   color: #fff;
-  
 }
 
 .main {
   flex-grow: 1; /* Faz a div 'main' crescer e ocupar todo o espaço disponível */
-}
-
-.footer {
-  align-self: flex-end; /* Alinha o 'footer' na extremidade inferior do corpo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .detalhes{
@@ -289,7 +275,40 @@ body {
   background-color: #0056b3;
 }
 
+.descricao{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
 
+.pdth{
+  display: flex;
+  background-color: #4CAF50; /* Cor de fundo padrão */
+  border: none;
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.2s; /* Duração da transição */
+  cursor: pointer;
+  width: fit-content;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.valorCom{
+  color: #4CAF50;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.valorSem{
+  color: red;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 
 
 
