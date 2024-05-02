@@ -1,5 +1,3 @@
-
-
 async function buscarDetalhes(){  
     let busca = await fetch("projeto.json")
     let produtos = await busca.json()
@@ -31,7 +29,7 @@ async function buscarDetalhes(){
         let divMiniaturas = document.getElementById("miniaturas")
         for(let y of produtos[indiceProd].img){
             divMiniaturas.innerHTML +=`
-                <img src="${y}" class="mini" width="80" height=80" style="border: 1px solid #000">
+                <img src="${y}" class="mini" width="80" height="80" style="border: 1px solid #000">
             `
         }
 
