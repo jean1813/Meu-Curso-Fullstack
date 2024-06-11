@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p style="font-size: 30px; color: red; font-weight: bold; border-top: 5px dashed blue; border-bottom: 10px dashed black; text-align: center;">
+        Minha Lista de Produtos:
+    </p>
+    <ul>
+        {% for produto in produtos %}
+            <li>{{ produto.nome_produto }} - R$ {{ produto.valor_produto }} - {% if produto.imagem_do_produto %} <img src="{{produto.imagem_do_produto.url}}" height="20" alt="">{% endif %}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'inicial' %}">Inicial</a>
+    <a href="{% url 'cadastro' %}">Cadastro</a>
+    
+
+</body>
+</html>

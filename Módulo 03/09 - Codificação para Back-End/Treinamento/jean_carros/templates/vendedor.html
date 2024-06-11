@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p>
+            Minha lista de Vendedores:
+        </p>
+        <ul>
+            {% for vendedor in vendedores %}
+                <li>{{ vendedor.nome }} - R$ {{ vendedor.salario }} <img src="{{vendedor.foto.url}}" height="20" alt=""></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
