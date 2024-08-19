@@ -1,0 +1,17 @@
+
+<!-- Formulário de Criação e Edição (item_form.html) -->
+{% extends 'base1.html' %}
+{% block content %}
+ <h2>{% if object %}Editar Item{% else %}Criar Novo Item{% endif %}</h2>
+ <form method="post">
+ {% csrf_token %}
+ {{ form.as_p }}
+ <button type="submit" class="btn btn-sm btn-primary">
+    {% if object %}
+    Atualizar
+    {% else %}
+    Criar
+    {% endif %}
+</button>
+ </form>
+{% endblock %}

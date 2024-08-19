@@ -1,0 +1,12 @@
+
+<!-- Confirmação de Exclusão (item_confirm_delete.html) -->
+{% extends 'base1.html' %}
+{% block content %}
+ <h2>Confirmar Exclusão</h2>
+ <p>Tem certeza que deseja excluir "{{ cliente.nome }}"?</p>
+ <form method="post">
+ {% csrf_token %}
+ <button  type="submit" class="btn btn-sm btn-danger">Sim, excluir</button>
+ <a href="{% url 'form-list' %}" class="btn brn-lg btn-primary">Cancelar</a>
+ </form>
+{% endblock %}

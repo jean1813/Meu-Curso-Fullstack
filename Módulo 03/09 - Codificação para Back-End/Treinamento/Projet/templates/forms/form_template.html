@@ -1,0 +1,77 @@
+{% extends 'base1.html' %}
+{% block content %}
+{% for error in errors %}
+{{ error }}
+{% endfor %}
+    <div class="row">
+        <div class="col-md-10">
+            <h1>Meu Formulário</h1>
+        </div>
+        <div class="col-md-2">
+            <a href={% url 'form-list' %}>
+                <button class="btn btn-md btn-primary">
+                    Ver Lista
+                </button>
+            </a>
+        </div>
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        <div class="row p-5">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu Nome" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="cpf_cnpj">CPF OU CNPJ:</label>
+                    <input type="text" class="form-control" id="cpf_cnpj" placeholder="CPF OU CNPJ" name="cpf_cnpj">
+                    {% for error in form.cpf_cnpj.erros %}
+                    <small id="emailHelp" class="form-text text-muted">
+                        {{ error }}
+                    </small>
+                    {% endfor %}
+                </div  class="col-md-6">
+                <div class"form-group">
+                    <label for="rg_ie">Rg ou IE:</label>
+                    <input type="text" class="form-control" id="rg ou ie" placeholder="Seu Rg ou IE" name="rg_ie">
+                </div>
+                <div class"form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Seu Email" name="email">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class"form-group">
+                    <label for="zip_code">CEP:</label>
+                    <input type="text" class="form-control" id="zip_code" placeholder="Seu Cep" name="zip_code">
+                </div>
+                <div class"form-group">
+                    <label for="address">ENDEREÇO:</label>
+                    <input type="text" class="form-control" id="address" placeholder="Seu Endereço" name="address">
+                </div>
+                <div class"form-group">
+                    <label for="number">NUMERO:</label>
+                    <input type="text" class="form-control" id="number" placeholder="Seu Numero" name="number" required> 
+                </div>
+                <div class"form-group">
+                    <label for="neighborhood">BAIRRO:</label>
+                    <input type="text" class="form-control" id="neighborhood" placeholder="Seu Bairro" name="neighborhood" readonly>
+                </div>
+                <div class"form-group">
+                    <label for="city">CIDADE:</label>
+                    <input type="text" class="form-control" id="city" placeholder="Sua Cidade" name="city" readonly>
+                </div>
+                <div class"form-group">
+                    <label for="state">ESTADO:</label>
+                    <input type="text" class="form-control" id="state" placeholder="Seu Estado" name="state" readonly>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,28 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Meu Site{% endblock %}</title>
+    </head>
+
+    <body>
+
+    <header style="background-color:blue; text-align:center">
+        <h1> meu cabeçalho</h1>
+    </header>
+
+    <main class="col-md-12" style="min-height:600px">
+        {% block content %}
+        <!-- Conteúdo Principal -->
+        {% endblock %}
+    </main>
+
+    <footer style="background-color:red; text-align:center">
+        <h1>meu rodape</h1>
+    </footer>
+
+
+    </body>
+</html>
+

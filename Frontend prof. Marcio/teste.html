@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=bo, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <button id="meuBotao">Deve clicar no botão</button>
+        <button id="btnBotao">Voltar</button>
+        <script>
+            function mudarTexto(){
+                this.innerText ='Clicando'
+            }
+
+            let botao = document.getElementById('meuBotao');
+            botao.addEventListener('click', mudarTexto);
+
+            function voltar(){
+                let botaotroca = document.getElementById('meuBotao');
+                botaotroca.innerText ='Deve clicar no botão'
+            }
+
+
+
+            let botao1 = document.getElementById('btnBotao');
+            botao1.addEventListener('click', voltar);
+   
+        mudarTexto()
+        voltar()
+        </script>
+        
+    </body>
+</html>

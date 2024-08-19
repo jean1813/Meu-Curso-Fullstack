@@ -1,0 +1,51 @@
+<!-- Detalhes do Item (item_detail.html) -->
+{% extends 'base1.html' %}
+{% block content %}
+ <!--<h2>{{ client.name }}</h2>
+ <p>{{ client.descricao }}</p>
+ <p>Preço: {{ client.preco }}</p>
+ <p>Criado em: {{ client.criado_em }}</p>
+ <a href="{% url 'item-edit' client.pk %}">Editar</a>
+ <a href="{% url 'item-delete' client.pk %}">Excluir</a>
+-->
+ <div class="row">
+    <div class="col-md-10">
+        <h1>Detalhes do Cliente</h1>
+    </div>
+    <div class="col-md-2">
+        <a href={% url 'form-list' %}>
+            <button class="btn btn-md btn-info">
+                Voltar
+            </button>
+        </a>
+    </div>
+</div>
+
+<div class="row p-5">
+    <div class="col-md-6">
+        <p> nome: {{ client.name }}</p>
+        <p> cpf ou cnpj: {{ client.cpf_cnpj }}</p>
+        <p> rg_ie: {{ client.rg_ie }}</p>      
+    </div>
+    <div class="col-md-6">
+        <p> Cep: {{ client.zip_code }}</p>
+        <p> Endereço: {{ client.address }}</p>
+        <p> Número: {{ client.number }}</p>
+        <p> Bairro: {{ client.neighborhood }}</p>
+        <p> Cidade: {{ client.zip_city }}</p>
+        <p> UF: {{ client.state }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <a style="padding-right: 1%;" href="">
+            <button class="btn btn-lg btn-warning">Editar</button>
+        </a>
+        <a style="padding-right: 1%;" href="{% url 'form-delete' client.pk  %}">
+            <button class="btn btn-lg btn-danger">Excluir</button>
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}
