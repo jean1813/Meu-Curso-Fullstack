@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+    </head>
+    <body>
+        <img src="https://media.moneytimes.com.br/uploads/2023/09/betworthy-mt-capaaj-1024x576.png" alt="" width="500" height="100">
+        
+        <h1>BEM VINDO AO SITE DE APOSTAS</h1>
+        
+        <a href="{% url 'formulario_time' %}"> 
+            <button class="meu-botao">Criar Time</button>
+        </a>
+
+        <br>
+        <br>
+
+        <a href="{% url 'formulario_jogo' %}">
+            <button class="meu-botao">Criar Jogo</button>
+        </a>
+
+        <br>
+        <br>
+
+        <form method="post">
+            {% csrf_token %}
+        <!--  <button type="submit">Cancelar</button> -->
+        </form>
+        
+        <h1>Lista de Times</h1>
+
+        <ul>
+            {% for x in resultados %}
+                <P>
+                    {{ x.nome_time }}  {{ x.time1 }} {{ x.placar_time1 }} x {{ x.placar_time2 }}  {{ x.time2 }} 
+                </P>
+            {% endfor %}
+        </ul>
+
+
+        <h2>Tabela de Resultados</h2>
+
+    <table>
+        <tr>
+            <!--<th>Nome do Time</th> -->
+            <th>Time 1</th>
+            <th>Placar Time 1</th>
+            <th> X </th>
+            <th>Placar Time 2</th>
+            <th>Time 2</th>
+        </tr>
+
+        {% for x in resultados %}
+        <tr>
+            <!--<td>{{ x.nome_time }}</td> -->
+            <td>{{ x.time1 }}</td>
+            <td>{{ x.placar_time1 }}</td>
+            <td> X </td>
+            <td>{{ x.placar_time2 }}</td>
+            <td>{{ x.time2 }}</td>
+        </tr>
+        {% endfor %}
+        
+    </table>
+
+    </body>
+        <footer>
+            &copy; 2024 Site de Apostas. Todos os direitos reservados.
+        </footer>
+
+</html>

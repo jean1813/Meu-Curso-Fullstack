@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <a href="{% url 'pagina_inicial' %}">Voltar</a>
+
+        <p>
+            Detalhes do Jogador:
+        </p>
+
+        <p>
+            NOME: {{jogador.nome}} 
+            <BR>
+            <BR>
+            
+            IDADE: {{jogador.idade}} {{jogador.anos}}
+            <BR>
+            <BR>
+              
+            POSICAO: {{jogador.posicao}}
+            <br>
+            <br>
+
+            ESTADO NASCIMENTO: {{jogador.estado_nascimento}}
+        </p>
+
+    </body>
+</html>

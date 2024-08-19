@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <a href="{% url 'pagina_inicial' %}">Voltar</a>
+
+        <p>
+            Detalhes do Paciente:
+        </p>
+
+        <p>
+            NOME: {{paciente.nome}} 
+            <BR>
+            <BR>
+            
+            IDADE: {{paciente.idade}}
+            <BR>
+            <BR>
+              
+            DIAGNOSTICO: {{paciente.diagnostico}}
+            <br>
+            <br>
+
+            EXAME SOLICITADO: {{paciente.exame_solicitado}}
+        </p>
+
+    </body>
+</html>

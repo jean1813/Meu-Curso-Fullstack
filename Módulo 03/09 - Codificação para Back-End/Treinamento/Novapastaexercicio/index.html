@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    </head>
+    <body>
+
+        <a href="{% url 'formulario_time' %}"> 
+            <button>Criar Time</button>
+        </a>
+
+        <br>
+        <br>
+
+        <a href="{% url 'formulario_jogo' %}">
+            <button>Criar Jogo</button>
+        </a>
+
+        <br>
+        <br>
+
+        <button type="submit">Cancelar</button>
+        
+        <h1>Lista de Times</h1>
+
+        <ul>
+            {% for x in resultados %}
+
+                <li>{{ x.nome_time }}</li> - <li>{{ x.time1 }}</li> X <li>{{ x.time2 }}</li> - <li>{{ x.placar_time1 }}</li> - <li>{{ x.placar_time2 }}</li> 
+
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

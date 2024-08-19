@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <body>
+
+        <a href="{% url 'page_inicial' %}">Pagina Inicial</a>
+
+        <p>
+            Esta é a página da Lista de Professores:
+        </p>
+
+        <ul>
+            {% for x in professores %}
+                <li>{{ x.nome }} - {{ x.idade }}  <img src="{{ x.foto.url }}" height="50" width="50"></li>
+            {% endfor %}
+        </ul>    
+
+    </body>
+</html>

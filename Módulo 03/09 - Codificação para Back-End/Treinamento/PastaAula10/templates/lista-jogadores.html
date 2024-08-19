@@ -1,0 +1,22 @@
+<html>
+    <header>
+
+        <p>
+            BORA CODAR
+        </p>
+
+    </header>
+    <body>
+        <p>
+            Minha lista de Jogadores:
+        </p>
+
+        
+
+        <ul>
+            {% for y in jogadores %}
+                <li>{{y.nome}} - <a href="{% url 'detalhes_jogador' y.id%}">ver jogador</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

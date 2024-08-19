@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static "style.css" %}">
+    </head>
+    <body>
+        <p>
+            Minha lista de Mensagens:
+        </p>
+
+        <ul style="color: red; font-size: 30px;">
+            {% for x in mensagem %}
+
+		<li>{{ x.nome_mensagem }} - R$ {{ x.valor_mensagem }}</li>
+        
+            {% endfor %}  
+        </ul>
+
+    </body>
+</html>

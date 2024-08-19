@@ -1,0 +1,32 @@
+html{
+    background-color: black;
+    color: aquamarine;
+    border: 2px solid white;    
+}
+
+p{
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0px;
+}
+
+li{
+    padding: 10px;
+    display: flex;
+    border: 2px solid red;
+}

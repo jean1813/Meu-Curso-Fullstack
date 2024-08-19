@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <body>
+
+        <a href="{% url 'page_inicial' %}">Pagina Inicial</a>
+
+        <p>
+            Esta é a página da Lista de Estudantes:
+        </p>
+
+        <ul>
+            {% for x in estudantes %}
+                <li>{{ x.nome }} - {{ x.idade }}  <img src="{{ x.foto.url }}" height="50" width="50"></li>
+            {% endfor %}
+        </ul>
+	
+    </body>
+    <footer>
+        <p>Professor: Ramon Marins<br>
+        <a href="https:www.senai-pi.com.br">SENAI</a></p>
+      </footer>
+</html>

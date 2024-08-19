@@ -1,0 +1,22 @@
+<html>
+    <body>
+
+        <a href={% url "pgestudante_inicial" %}>
+        <button >Voltar</button>
+        </a>
+
+        <h3>
+            Lista de Estudantes:
+        </h3>
+        
+        <ul>
+            {% for y in estudantes %}
+                <li>{{ y.aluno }} - {{ y.idade_aluno }} - {{ y.quant_notas }}</li>
+            {% endfor %}
+        </ul>
+
+    </body>                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+
+    
+</html>

@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <a href={% url "pagina_inicial" %}>
+            <button >Voltar</button>
+        </a>
+
+        <h3>
+            Lista de Jogadores:
+        </h3>
+        
+        <ul>
+            {% for y in jogadores %}
+                <li>{{ y.nome }} - {{ y.idade_jogador }} - {{ y.posicao }} - {{ y.time_atual }}</li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

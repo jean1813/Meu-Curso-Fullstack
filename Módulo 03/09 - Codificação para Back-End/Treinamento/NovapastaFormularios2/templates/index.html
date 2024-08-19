@@ -1,0 +1,32 @@
+<html>
+    <body>
+        
+
+
+
+        
+        <a href={% url "pglista" %}>
+        <button >pagina lista de Estudantes</button>
+        </a>
+
+        <h3>Formulário de Estudante</h3>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ formulario.as_p }}
+            <button type="submit">Salvar</button>
+            <button type="reset" onclick="resetForm()">Cancelar</button>
+        </form>
+        
+        <h3>
+            Lista de Estudantes:
+        </h3>
+
+        <ul>
+            {% for y in estudantes %}
+                <li>{{ y.aluno }} - {{ y.idade_aluno }} - {{ y.quant_notas }}</li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

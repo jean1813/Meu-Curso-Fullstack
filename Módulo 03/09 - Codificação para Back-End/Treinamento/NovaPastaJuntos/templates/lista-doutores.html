@@ -1,0 +1,19 @@
+<html>
+    <body>
+
+        <a href="{% url "pg_inicial" %}">voltar para Home</a>
+
+        <p>
+            LISTA DE DE DOUTORES CONTRATADOS ABAIXO:
+        </P>
+
+        <ul>
+            {% for y in doutores %}
+            <li>
+               Nome: {{y.nome}} | Especialização: {{y.especilaizaco}} | CRM: {{y.crm}}
+            </li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Criar Jogo</title>
+    </head>
+
+    <body>
+
+        <a href="{% url 'pg_index' %}"> 
+
+            <button>Voltar</button>
+        </a>
+
+        <h1>Criar Novo Jogo</h1>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ formulario_jogo.as_p }}
+            <button type="submit">Salvar</button>
+            <button type="submit">Cancelar</button>
+        </form>
+
+    </body>
+</html>

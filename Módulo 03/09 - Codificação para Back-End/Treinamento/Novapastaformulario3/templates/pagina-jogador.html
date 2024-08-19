@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <a href={% url "pglistajogadores" %}>
+            <button >ir para pagina lista de jogadores</button>
+        </a>
+
+        <h3>Formulário de jogador</h3>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ formulario.as_p }}
+            <button type="submit">Salvar</button>
+            <button type="reset" onclick="resetForm()">Cancelar</button>
+            <!--<button onclick="voltar()">Voltar</button> -->
+        </form>
+        
+        <h3>
+            Lista de jogadores:
+        </h3>
+
+        <ul>
+            {% for y in jogadores %}
+                <li>{{ y.nome }} - {{ y.idade_jogador }} - {{ y.data_nasc }} - {{ y.posicao }} - {{ y.time_atual }} - <img src="{{ y.foto_perfil.url }}"> - <a href="{{ y.documentos.url }}"></a></li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

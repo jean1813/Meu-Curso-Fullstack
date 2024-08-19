@@ -1,0 +1,20 @@
+<html>
+    <body>
+
+        <a href="{% url "pg_inicial" %}">voltar para Home</a>
+
+        <p>
+            LISTA DE PACIENTES INTERNADOS ABAIXO:
+        </P>
+
+        <ul>
+            {% for x in pacientes %}
+            <li>
+               Nome: {{x.nome}} | Data de nascimento: {{x.data_nascimento}} | Diagnostico: {{x.diagnostico}}
+            </li>
+            {% endfor %}
+
+        </ul>
+
+    </body>
+</html>

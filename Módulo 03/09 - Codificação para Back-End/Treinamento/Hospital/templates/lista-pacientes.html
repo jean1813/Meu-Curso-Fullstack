@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p>
+            Minha lista de Pacientes:
+        </p>
+        <ul>
+            {% for y in pacientes %}
+                <li>{{y.nome}} - <a href="{% url 'detalhes_paciente' y.id%}">ver paciente</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
