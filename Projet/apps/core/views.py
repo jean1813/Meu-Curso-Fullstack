@@ -36,7 +36,7 @@ class ItemUpdateView(UpdateView):
 class ItemDeleteView(DeleteView):
     model = Item
     success_url = '/'
-    template_name = 'item/item_confirm.html'
+    template_name = 'item/item_confirm_delete.html'
 
 
 def FormularioView(request):

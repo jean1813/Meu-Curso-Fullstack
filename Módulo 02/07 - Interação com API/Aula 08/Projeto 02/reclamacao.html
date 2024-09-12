@@ -4,30 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reclame aqui</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Reclame Aqui</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        #reclamacao {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Botão ou link para abrir o formulário de reclamação -->
-
-    <!-- Formulário de reclamação -->
-    <div id="reclamacao">
-        <h2>Formulário de Reclamação</h2>
+    <div id="reclamacao" class="container">
+        <h2 class="mb-4">Formulário de Reclamação</h2>
         <form action="https://formspree.io/seu-email" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="_replyto" required><br>
-
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto" required><br>
-
-            <label for="reclamacao">Reclamação:</label><br>
-            <textarea id="reclamacao" name="reclamacao" rows="4" cols="50" required></textarea><br>
-
-            <button type="submit">Enviar Reclamação</button>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" id="nome" name="nome" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" name="_replyto" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="reclamacao" class="form-label">Reclamação:</label>
+                <textarea id="reclamacao" name="reclamacao" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Reclamação</button>
         </form>
     </div>
 
@@ -37,6 +59,9 @@
         </div>
     </footer>
 
+    <!-- Inclusão dos scripts do Bootstrap e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

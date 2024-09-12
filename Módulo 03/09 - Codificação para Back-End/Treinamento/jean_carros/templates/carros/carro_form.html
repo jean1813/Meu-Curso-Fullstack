@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Formulário de Carro{% endblock %}
+
+{% block content %}
+    <h1 class="mb-4">{% block header %}Formulário de Carro{% endblock %}</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a href="{% url 'carro_list' %}" class="btn btn-secondary">Voltar para a lista</a>
+    </form>
+{% endblock %}

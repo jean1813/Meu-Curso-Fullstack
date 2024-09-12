@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="pagina">
-        <button class="pdth" onclick="window.history.back()">VOLTAR</button>
-        <div class="detalhes" id="detalhes">      
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Inclusão do CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    
+</head>
+<body class="pagina">
+    <button class="btn btn-primary mb-3" onclick="window.history.back()">VOLTAR</button>
+    
+    <div class="detalhes">
+        <!-- Conteúdo detalhado aqui -->
+    </div>
+    
+    <div class="tamanho">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="jeanWeb" id="sizeP" value="P">
+            <label class="form-check-label" for="sizeP">P</label>
         </div>
-        <div class="tamanho">      
-            <input type="radio" name="jean web" value="P">P
-            <input type="radio" name="jean web" value="M">M
-            <input type="radio" name="jean web" value="G">G 
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="jeanWeb" id="sizeM" value="M">
+            <label class="form-check-label" for="sizeM">M</label>
         </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="jeanWeb" id="sizeG" value="G">
+            <label class="form-check-label" for="sizeG">G</label>
+        </div>
+    </div>
+    
+    <div class="pagamento">
+        <h3>FORMAS DE PAGAMENTO</h3>
+        <select class="form-control" id="opcoesPagamento">
+            <option value="">Cartão de Crédito</option>
+            <option value="">Pix</option>
+            <option value="">Boleto</option>
+        </select>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Loja de Compras. Todos os direitos reservados.</p>
+    </footer>
 
-        <div class="pagamento">
-            <h3>FORMAS DE PAGAMENTO</h3>
-            <select class="selecao" name="" id="opcoes de pagamento">
-                <option value="">cartao de credito</option>
-                <option value="">pix</option>
-                <option value="">boleto</option>
-            </select>
-        </div>
-        <footer class="footer">
-            <p>&copy; 2024 Loja de Compras. Todos os direitos reservados.</p>
-        </footer>
-
-    </body>
+    <!-- Inclusão dos scripts do Bootstrap e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="detalhes.js"></script>
+</body>
 </html>

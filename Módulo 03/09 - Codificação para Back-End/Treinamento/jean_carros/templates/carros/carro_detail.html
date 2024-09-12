@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Detalhes do Carro{% endblock %}
+
+{% block content %}
+    <h1 class="mb-4">{{ object.modelo }}</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="{{ object.foto.url }}" class="card-img-top" alt="{{ object.modelo }}">
+        <div class="card-body">
+            <h5 class="card-title">Modelo: {{ object.modelo }}</h5>
+            <p class="card-text">Ano de Fabricação: {{ object.ano_fabricacao }}</p>
+            <p class="card-text">Acessórios: {{ object.acessorios }}</p>
+            <p class="card-text">Valor: R$ {{ object.valor }}</p>
+            <p class="card-text">Tipo: {{ object.get_tipo_display }}</p>
+            <a href="{% url 'carro_update' object.pk %}" class="btn btn-warning">Editar</a>
+            <a href="{% url 'carro_delete' object.pk %}" class="btn btn-danger">Excluir</a>
+            <a href="{% url 'carro_list' %}" class="btn btn-secondary">Voltar para a lista</a>
+        </div>
+    </div>
+{% endblock %}

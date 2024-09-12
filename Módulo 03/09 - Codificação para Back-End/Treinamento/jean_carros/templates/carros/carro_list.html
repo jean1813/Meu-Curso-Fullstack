@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Lista de Carros{% endblock %}
+
+{% block content %}
+    <h1 class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">Lista de Carros</h1>
+    <a href="{% url 'carro_create' %}" class="btn btn-primary mb-3">Adicionar Novo Carro</a>
+    <ul class="list-group">
+        {% for carro in object_list %}
+            <li class="list-group-item">
+                <a href="{% url 'carro_detail' carro.pk %}">{{ carro.modelo }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

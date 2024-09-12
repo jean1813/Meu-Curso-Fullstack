@@ -4,10 +4,10 @@ from .models import Vendedor
 
 
 def index_vendedor(request):
-    return render(request, "ola_vendedor.html")
+    return render(request, "vendedor.html")
 
 def monza(request):
-    return HttpResponse("monza!!")
+     return render(request, "carros.html")
 
 
 def Vervendedores(request):
