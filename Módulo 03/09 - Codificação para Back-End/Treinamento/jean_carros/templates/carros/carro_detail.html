@@ -15,6 +15,7 @@
             <a href="{% url 'carro_update' object.pk %}" class="btn btn-warning">Editar</a>
             <a href="{% url 'carro_delete' object.pk %}" class="btn btn-danger">Excluir</a>
             <a href="{% url 'carro_list' %}" class="btn btn-secondary">Voltar para a lista</a>
+            <a href="{% url 'carro_list' %}" class="btn btn-success">Adicionar Ao Carrinho</a>
         </div>
     </div>
 {% endblock %}

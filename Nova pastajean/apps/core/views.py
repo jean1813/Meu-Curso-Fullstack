@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def saudacao(request):
-    return HttpResponse("Olá mundo!!!")
+def LinkInicial(request):
+    return render(request, "index.html")
+
+def LinkCadastro(request):
+    return render(request, "cadastro.html")
